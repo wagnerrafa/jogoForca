@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+header{
+    display: flex;
+    height: 150px;
+    font-size: 4rem;
+    justify-content: center;
+    /*padding-bottom: 10px double black;*/
+}
+main{
+    display: grid;
+    grid-template-areas: "section" "section""aside";
+    grid-template-columns: 20% 50% 1fr;
+}
+
+section{
+    grid-template-areas: "section";
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    
+    
+}
+img{
+    height: 200px;
+}
+footer{
+    grid-template-areas: "footer";
+
+}
+* { margin: 0; padding: 0; border: 0; }
+input { background: #fff; border: 1px solid #ccc; padding: 2px; 
+text-decoration: none;
+border-color: none ! important;
+}
+#teclado { width: 400px; }
+#teclado fieldset { width: 300px; text-align: center; float: left; margin: 2px; }
+#teclado #numbers { float: right; width: 80px; }
+fieldset { margin: 5px; }
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
